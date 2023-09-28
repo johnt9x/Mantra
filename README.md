@@ -29,7 +29,8 @@ mv $HOME/.mantrachain/priv_validator_state.json.backup $HOME/.mantrachain/data/p
 
 sudo systemctl restart mantrachaind && sudo journalctl -u mantrachaind -f
 ```
-# MONIKER
+# Manual:
+# Moniker
 Replace YOUR_MONIKER_GOES_HERE with your validator name
 
 MONIKER="YOUR_MONIKER_GOES_HERE"
