@@ -32,7 +32,7 @@ sudo wget -P /usr/lib https://github.com/CosmWasm/wasmvm/releases/download/v1.3.
 cd $HOME
 wget https://github.com/MANTRA-Finance/public/raw/main/mantrachain-testnet/mantrachaind-linux-amd64.zip
 unzip mantrachaind-linux-amd64.zip
-
+rm mantrachaind-linux-amd64.zip
 # Setup Cosmovisor Symlinks
 mkdir -p $HOME/.mantrachain/cosmovisor/genesis/bin
 mv mantrachaind $HOME/.mantrachain/cosmovisor/genesis/bin/
