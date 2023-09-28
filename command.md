@@ -62,19 +62,22 @@ mantrachaind tx bank send wallet_ADDRESS <TO_WALLET_ADDRESS> 1000000uaum --gas a
 Create New Validator
 ```
 mantrachaind tx staking create-validator \
---amount 1000000uaum \
---from wallet \
---commission-rate 0.1 \
---commission-max-rate 0.2 \
---commission-max-change-rate 0.01 \
---min-self-delegation 1 \
---pubkey $(mantrachaind tendermint show-validator) \
---moniker "$MONIKER" \
---identity "" \
---details "" \
---chain-id mantrachain \
---gas auto --gas-adjustment 1.5 \
--y
+  --amount "1000000uaum" \
+  --pubkey $(mantrachaind tendermint show-validator) \
+  --moniker "MONIKER" \
+  --identity "KEYBASE_ID" \
+  --details "YOUR DETAILS" \
+  --website "YOUR WEBSITE" \
+  --chain-id mantrachain-1 \
+  --commission-rate "0.05" \
+  --commission-max-rate "0.20" \
+  --commission-max-change-rate "0.01" \
+  --min-self-delegation "1" \
+  --gas-prices "0uaum" \
+  --gas "auto" \
+  --gas-adjustment "1.5" \
+  --from wallet \
+  -y
 ```
 Edit Existing Validator
 ```
