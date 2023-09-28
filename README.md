@@ -31,6 +31,7 @@ sudo systemctl restart mantrachaind && sudo journalctl -u mantrachaind -f
 ```
 # MONIKER
 Replace YOUR_MONIKER_GOES_HERE with your validator name
+
 MONIKER="YOUR_MONIKER_GOES_HERE"
 
 # Update Packages
