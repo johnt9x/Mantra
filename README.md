@@ -27,7 +27,7 @@ s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.mantrachain/config/config
 
 mv $HOME/.mantrachain/priv_validator_state.json.backup $HOME/.mantrachain/data/priv_validator_state.json
 
-sudo systemctl restart mantrachaind && sudo journalctl -u mantrachaind -f
+sudo systemctl restart mantrachaind && sudo journalctl -fu mantrachaind -o cat
 ```
 # Manual:
 # Moniker
