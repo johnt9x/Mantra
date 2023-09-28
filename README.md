@@ -16,7 +16,7 @@ curl https://testnet-files.itrocket.net/mantra/snap_mantra.tar.lz4 | lz4 -dc - |
 
 mv $HOME/.mantrachain/priv_validator_state.json.backup $HOME/.mantrachain/data/priv_validator_state.json
 
-sudo systemctl restart mantrachaind && sudo journalctl -fu mantrachaind -f
+sudo systemctl restart mantrachaind && sudo journalctl -fu mantrachaind -o cat
 ```
 # Manual:
 # Moniker
