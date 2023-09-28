@@ -3,7 +3,7 @@ port 12, chain id: mantrachain-1
 
 # Automatic:
 ```
-wget -O mantra.sh https://raw.githubusercontent.com/johnt9x/Mantra/main/mantra.sh && chmod +x arkeo.sh && ./arkeo.sh
+wget -O mantra.sh https://raw.githubusercontent.com/johnt9x/Mantra/main/mantra.sh && chmod +x mantra.sh && ./mantra.sh
 ```
 # Snapshot:
 ```
