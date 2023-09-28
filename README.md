@@ -1,4 +1,4 @@
-# MANTRA
+# MANTRACHAIN
 port 110, chain id: mantrachain-1
 
 # Automatic:
