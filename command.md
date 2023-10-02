@@ -33,11 +33,7 @@ mantrachaind tx distribution withdraw-all-rewards --from wallet --chain-id mantr
 ```
 Withdraw rewards and commission from your validator
 ```
-mantrachaind tx distribution withdraw-rewards $(mantrachaind keys show wallet -a) --from wallet --commission --chain-id mantrachain-1 --gas auto --gas-adjustment 1.5 -y
-```
-Check your balance
-```
-mantrachaind query bank balances wallet_ADDRESS
+mantrachaind tx distribution withdraw-rewards $(mantrachaind keys show wallet --bech val -a) --commission --from wallet --chain-id mantrachain-1 --gas-prices=0uaum --gas-adjustment 1.5 --gas "auto" -y 
 ```
 Delegate to Yourself
 ```
