@@ -40,7 +40,7 @@ sudo ln -s $HOME/.mantrachain/cosmovisor/genesis $HOME/.mantrachain/cosmovisor/c
 sudo ln -s $HOME/.mantrachain/cosmovisor/current/bin/mantrachaind /usr/local/bin/mantrachaind
 
 # Set Configuration for your node
-mantrachaind config node tcp://localhost:11057
+mantrachaind config node tcp://localhost:11157
 mantrachaind config chain-id mantrachain-1
 mantrachaind config keyring-backend file
 
