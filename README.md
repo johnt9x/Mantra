@@ -1,5 +1,5 @@
 # MANTRACHAIN
-port 110, chain id: mantrachain-1
+port 111, chain id: mantrachain-1
 
 # Automatic:
 ```
